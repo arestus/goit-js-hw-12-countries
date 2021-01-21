@@ -18,3 +18,42 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flag {
+  width: 300px;
+  height: auto;
+  border: 4px solid #021a40;
+}
+.input-label {
+  font-size: 50px;
+}
+.country-name {
+  text-align: center;
+  font-size: 50px;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+.list-country {
+  text-align: center;
+  list-style-type: none;
+}
+.input-block {
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
