@@ -16,7 +16,8 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+  background-image: url(./images/brett-zeck-eyfMgGvo9PA-unsplash.jpg);
+  color: white;
 }
 
 .container {
